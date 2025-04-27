@@ -1,0 +1,26 @@
+.grid-livros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 30px;
+    justify-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.livro {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 255, 234, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+}
+
+.livro:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 255, 234, 0.7);
+}
