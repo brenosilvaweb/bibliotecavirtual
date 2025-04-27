@@ -1,0 +1,8 @@
+{
+    "name": "meu-projeto-php",
+    "require": {
+      "php": "^7.4",
+      "some/package": "^1.0"
+    }
+  }
+  
